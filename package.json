@@ -16,7 +16,9 @@
         "plugin",
         "es6",
         "gsap",
-        "animation"
+        "animation",
+        "tweenmax",
+        "tweenlite"
     ],
     "author": "Edvinas Pranka (@epranka, https://www.kodmina.lt)",
     "license": "MIT",
