@@ -1,6 +1,6 @@
 {
     "name": "scrollmagic-plugin-gsap",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Add animation.gsap.js plugin to ScrollMagic in ES6 with no problems",
     "main": "index.js",
     "types": "index.d.ts",
