@@ -1,6 +1,6 @@
-import { Tween, Timeline } from "gsap";
+import { TimelineLite, TimelineMax, TweenLite, TweenMax } from "gsap";
 export declare const ScrollMagicPluginGsap: (
     ScrollMagic: any,
-    Tween: Tween,
-    Timeline: Timeline
+    tween: typeof TweenLite | typeof TweenMax,
+    timeline: typeof TimelineLite | typeof TimelineMax
 ) => void;
