@@ -16,7 +16,7 @@
  * @requires {@link http://greensock.com/gsap|GSAP ~1.14.x}
  * @mixin animation.GSAP
  */
-var ScrollMagicGsapPlugin = function(ScrollMagic, TweenMax, Timeline) {
+var ScrollMagicPluginGsap = function(ScrollMagic, TweenMax, Timeline) {
     var Tween = TweenMax;
     var NAMESPACE = "animation.gsap";
 
@@ -340,4 +340,4 @@ var ScrollMagicGsapPlugin = function(ScrollMagic, TweenMax, Timeline) {
     });
 };
 
-module.exports = { ScrollMagicGsapPlugin };
+module.exports = { ScrollMagicPluginGsap };
