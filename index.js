@@ -340,4 +340,4 @@ var ScrollMagicPluginGsap = function(ScrollMagic, TweenMax, Timeline) {
     });
 };
 
-module.exports = { ScrollMagicPluginGsap };
+module.exports = { ScrollMagicPluginGsap : ScrollMagicPluginGsap };
