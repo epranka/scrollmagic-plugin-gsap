@@ -273,7 +273,7 @@ var ScrollMagicPluginGsap = function(ScrollMagic, TweenMax, Timeline) {
             }
 
             // warn about tween overwrites, when an element is tweened multiple times
-            if (parseFloat(TweenLite.version) >= 1.14) {
+            if (parseFloat(Tween.version) >= 1.14) {
                 // onOverwrite only present since GSAP v1.14.0
                 var list = _tween.getChildren
                         ? _tween.getChildren(true, true, false)
